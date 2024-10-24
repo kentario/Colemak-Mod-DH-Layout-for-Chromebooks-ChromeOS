@@ -1,0 +1,25 @@
+{
+    "name": "Colemak Mod-DH",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "A modified version of the Colemak keyboard layout, designed for ergonomics.",
+
+    "background": {
+	"service_worker": "background.js"
+    },
+
+    "permissions": [
+	"input"
+    ],
+
+    "input_components": [
+	{
+	    "name": "Colemak Mod-DH",
+	    "type": "ime",
+	    "id": "colemak_mod_dh",
+	    "description": "A modified version of the Colemak keyboard layout, designed for ergonomics.",
+	    "language": "en-US",
+	    "layouts": ["us(colemak)"]
+	}
+    ]
+}
